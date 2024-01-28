@@ -65,7 +65,8 @@ body::before {
 }
 
 button:disabled {
-    background-color: gray;
+    background-color: gray; 
+    visibility: hidden; /* deixe o hidden para esconder o botão */ 
 }
 
 .container__texto {
